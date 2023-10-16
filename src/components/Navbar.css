@@ -1,0 +1,73 @@
+.formContainer{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#form{
+    padding: 20px 0rem;
+    margin: 20px 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c6e2fb;
+    border-radius: 20px;
+    /* border: solid 1px black; */
+    position: relative;
+    z-index: 1;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#form button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #d7fff1;
+    border-radius: 10px;
+    width: 146px;
+}
+
+
+#form input{
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+ .cancelBtn{
+  cursor: pointer;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  background-color: #ff5959;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6%;
+
+  transition: .4s ease-out;
+  z-index: 0;
+}
+
+ button.hideCancelBtn{
+  right: 11%;
+}
+
+
